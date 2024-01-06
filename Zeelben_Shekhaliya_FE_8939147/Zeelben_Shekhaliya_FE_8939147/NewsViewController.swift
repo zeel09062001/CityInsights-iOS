@@ -15,7 +15,6 @@ class NewsViewController:  ExtensionViewController, UITableViewDelegate, UITable
     var locationData : String?
     let apiKey = "1f2bc91deaee4dfab0bcadef72aa5155"
     
-    
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()

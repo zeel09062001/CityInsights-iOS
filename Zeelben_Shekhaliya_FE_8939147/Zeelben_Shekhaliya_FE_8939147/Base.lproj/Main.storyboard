@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home-->
+        <!--CityInsights-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zeelben_Shekhaliya_FE_8939147" customModuleProvider="target" sceneMemberID="viewController">
@@ -71,13 +71,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="x3P-E9-J27"/>
-                    <navigationItem key="navigationItem" title="Home" id="2m3-Le-FF4">
-                        <barButtonItem key="rightBarButtonItem" title="Search History" id="PYn-cb-q3R">
-                            <connections>
-                                <action selector="searchHistoryButtionAction:" destination="BYZ-38-t0r" id="LyQ-pz-yBL"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="CityInsights" id="2m3-Le-FF4"/>
                     <connections>
                         <outlet property="discoverWorldBtn" destination="1qI-Ij-xMT" id="yNb-g9-fTf"/>
                     </connections>
