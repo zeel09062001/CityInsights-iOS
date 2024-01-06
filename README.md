@@ -43,7 +43,7 @@ Rest assured that CityInsight is crafted with meticulous attention to detail. Ro
 
 Experience the city on a whole new level - download CityInsight today and embark on a journey of exploration and information like never before.
 
-##Future Enhancements
+##Future-Enhancements
 
 As we continually strive to enhance your experience with CityInsight, we have exciting plans for future updates. Here's a glimpse of the features we're working on:
 
