@@ -48,13 +48,10 @@ Experience the city on a whole new level - download CityInsight today and embark
 As we continually strive to enhance your experience with CityInsight, we have exciting plans for future updates. Here's a glimpse of the features we're working on:
 
 Search History:
-
 Never lose track of your exploration journey. The upcoming update will introduce a comprehensive search history feature. Easily revisit and manage your past searches, making it a breeze to rediscover cities that captured your interest.
+
 Map Enhancements:
-
 Taking our location insights to the next level, we're incorporating time and distance details in kilometers from your current location to the city you've entered. Whether you're planning a drive, a cycle ride, or a leisurely stroll, CityInsight will provide real-time data for a seamless and informed experience.
+
 Extended Weather Forecast:
-
 Stay ahead of the weather curve with the addition of daily forecasts. CityInsight is gearing up to deliver a more comprehensive weather experience, providing you with detailed insights into the upcoming weather conditions. Plan your days with confidence, armed with extended forecasts to guide your decisions.
-
-
