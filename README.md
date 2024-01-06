@@ -11,7 +11,7 @@ Welcome to CityInsight, your all-in-one companion for staying connected with cit
 <!-- Demo Section -->
 ## Demo
 
-Include a brief description or link to your project's demo.
+<img width="327" alt="Screenshot 2024-01-05 at 11 28 15 PM" src="https://github.com/zeel09062001/CityInsights-iOS/assets/154539584/0f656943-eb19-4fd9-b287-4d00049ca439">
 
 <!-- Features Section -->
 ## Features
