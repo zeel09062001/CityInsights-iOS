@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC93322E2B227939006FDFE5 /* LocalNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93322C2B227938006FDFE5 /* LocalNewsTableViewCell.swift */; };
+		DC93322F2B227939006FDFE5 /* LocalNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC93322D2B227939006FDFE5 /* LocalNewsTableViewCell.xib */; };
+		DC9332322B227A7C006FDFE5 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9332312B227A7C006FDFE5 /* NewsModel.swift */; };
+		DC9332342B227EBB006FDFE5 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9332332B227EBB006FDFE5 /* NewsViewController.swift */; };
+		DC9332362B228137006FDFE5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9332352B228137006FDFE5 /* MapViewController.swift */; };
+		DC9332382B228398006FDFE5 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9332372B228398006FDFE5 /* WeatherViewController.swift */; };
+		DCA619582B217C7400BA01CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA619572B217C7400BA01CD /* AppDelegate.swift */; };
+		DCA6195A2B217C7400BA01CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA619592B217C7400BA01CD /* SceneDelegate.swift */; };
+		DCA6195C2B217C7400BA01CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6195B2B217C7400BA01CD /* ViewController.swift */; };
+		DCA6195F2B217C7400BA01CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA6195D2B217C7400BA01CD /* Main.storyboard */; };
+		DCA619622B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCA619602B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.xcdatamodeld */; };
+		DCA619642B217C7700BA01CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA619632B217C7700BA01CD /* Assets.xcassets */; };
+		DCA619672B217C7700BA01CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA619652B217C7700BA01CD /* LaunchScreen.storyboard */; };
+		DCC5ACB52B23C054002EFC39 /* weatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC5ACB42B23C054002EFC39 /* weatherModel.swift */; };
+		DCDFBD4A2B472CB200BB0910 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDFBD492B472CB200BB0910 /* ExtensionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC93322C2B227938006FDFE5 /* LocalNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNewsTableViewCell.swift; sourceTree = "<group>"; };
+		DC93322D2B227939006FDFE5 /* LocalNewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocalNewsTableViewCell.xib; sourceTree = "<group>"; };
+		DC9332312B227A7C006FDFE5 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		DC9332332B227EBB006FDFE5 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		DC9332352B228137006FDFE5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DC9332372B228398006FDFE5 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		DCA619542B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeelben_Shekhaliya_FE_8939147.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA619572B217C7400BA01CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA619592B217C7400BA01CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCA6195B2B217C7400BA01CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCA6195E2B217C7400BA01CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA619612B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zeelben_Shekhaliya_FE_8939147.xcdatamodel; sourceTree = "<group>"; };
+		DCA619632B217C7700BA01CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA619662B217C7700BA01CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA619682B217C7700BA01CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC5ACB42B23C054002EFC39 /* weatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherModel.swift; sourceTree = "<group>"; };
+		DCDFBD492B472CB200BB0910 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA619512B217C7400BA01CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC9332302B227A59006FDFE5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DC9332312B227A7C006FDFE5 /* NewsModel.swift */,
+				DCC5ACB42B23C054002EFC39 /* weatherModel.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DCA6194B2B217C7400BA01CD = {
+			isa = PBXGroup;
+			children = (
+				DCA619562B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147 */,
+				DCA619552B217C7400BA01CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA619552B217C7400BA01CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA619542B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA619562B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147 */ = {
+			isa = PBXGroup;
+			children = (
+				DCA619572B217C7400BA01CD /* AppDelegate.swift */,
+				DCA619592B217C7400BA01CD /* SceneDelegate.swift */,
+				DCA6195D2B217C7400BA01CD /* Main.storyboard */,
+				DCA6195B2B217C7400BA01CD /* ViewController.swift */,
+				DCDFBD492B472CB200BB0910 /* ExtensionViewController.swift */,
+				DC9332332B227EBB006FDFE5 /* NewsViewController.swift */,
+				DC9332352B228137006FDFE5 /* MapViewController.swift */,
+				DC9332372B228398006FDFE5 /* WeatherViewController.swift */,
+				DC93322C2B227938006FDFE5 /* LocalNewsTableViewCell.swift */,
+				DC93322D2B227939006FDFE5 /* LocalNewsTableViewCell.xib */,
+				DC9332302B227A59006FDFE5 /* API */,
+				DCA619632B217C7700BA01CD /* Assets.xcassets */,
+				DCA619652B217C7700BA01CD /* LaunchScreen.storyboard */,
+				DCA619682B217C7700BA01CD /* Info.plist */,
+				DCA619602B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.xcdatamodeld */,
+			);
+			path = Zeelben_Shekhaliya_FE_8939147;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA619532B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA6196B2B217C7700BA01CD /* Build configuration list for PBXNativeTarget "Zeelben_Shekhaliya_FE_8939147" */;
+			buildPhases = (
+				DCA619502B217C7400BA01CD /* Sources */,
+				DCA619512B217C7400BA01CD /* Frameworks */,
+				DCA619522B217C7400BA01CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zeelben_Shekhaliya_FE_8939147;
+			productName = Zeelben_Shekhaliya_FE_8939147;
+			productReference = DCA619542B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA6194C2B217C7400BA01CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DCA619532B217C7400BA01CD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DCA6194F2B217C7400BA01CD /* Build configuration list for PBXProject "Zeelben_Shekhaliya_FE_8939147" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA6194B2B217C7400BA01CD;
+			productRefGroup = DCA619552B217C7400BA01CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA619532B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA619522B217C7400BA01CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA619672B217C7700BA01CD /* LaunchScreen.storyboard in Resources */,
+				DCA619642B217C7700BA01CD /* Assets.xcassets in Resources */,
+				DC93322F2B227939006FDFE5 /* LocalNewsTableViewCell.xib in Resources */,
+				DCA6195F2B217C7400BA01CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA619502B217C7400BA01CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9332322B227A7C006FDFE5 /* NewsModel.swift in Sources */,
+				DC9332382B228398006FDFE5 /* WeatherViewController.swift in Sources */,
+				DC93322E2B227939006FDFE5 /* LocalNewsTableViewCell.swift in Sources */,
+				DCA6195C2B217C7400BA01CD /* ViewController.swift in Sources */,
+				DCDFBD4A2B472CB200BB0910 /* ExtensionViewController.swift in Sources */,
+				DCC5ACB52B23C054002EFC39 /* weatherModel.swift in Sources */,
+				DCA619582B217C7400BA01CD /* AppDelegate.swift in Sources */,
+				DC9332342B227EBB006FDFE5 /* NewsViewController.swift in Sources */,
+				DCA6195A2B217C7400BA01CD /* SceneDelegate.swift in Sources */,
+				DCA619622B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.xcdatamodeld in Sources */,
+				DC9332362B228137006FDFE5 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCA6195D2B217C7400BA01CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA6195E2B217C7400BA01CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA619652B217C7700BA01CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA619662B217C7700BA01CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA619692B217C7700BA01CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA6196A2B217C7700BA01CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA6196C2B217C7700BA01CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 232BJD74LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zeelben_Shekhaliya_FE_8939147/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeelben-Shekhaliya-FE-8939147.Zeelben-Shekhaliya-FE-8939147";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCA6196D2B217C7700BA01CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 232BJD74LG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zeelben_Shekhaliya_FE_8939147/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeelben-Shekhaliya-FE-8939147.Zeelben-Shekhaliya-FE-8939147";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA6194F2B217C7400BA01CD /* Build configuration list for PBXProject "Zeelben_Shekhaliya_FE_8939147" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA619692B217C7700BA01CD /* Debug */,
+				DCA6196A2B217C7700BA01CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA6196B2B217C7700BA01CD /* Build configuration list for PBXNativeTarget "Zeelben_Shekhaliya_FE_8939147" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA6196C2B217C7700BA01CD /* Debug */,
+				DCA6196D2B217C7700BA01CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCA619602B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCA619612B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.xcdatamodel */,
+			);
+			currentVersion = DCA619612B217C7400BA01CD /* Zeelben_Shekhaliya_FE_8939147.xcdatamodel */;
+			path = Zeelben_Shekhaliya_FE_8939147.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCA6194C2B217C7400BA01CD /* Project object */;
+}

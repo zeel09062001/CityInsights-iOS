@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocalNewsTableViewCell" rowHeight="171" id="KGk-i7-Jjw" customClass="LocalNewsTableViewCell" customModule="Zeelben_Shekhaliya_FE_8939147" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="418" height="171"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="418" height="171"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFB-m2-YBj">
+                        <rect key="frame" x="10" y="10" width="398" height="151"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EW-kQ-MoB">
+                                <rect key="frame" x="20" y="9.9999999999999982" width="358" height="22.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Xk-5Y-49e">
+                                <rect key="frame" x="10" y="42.333333333333343" width="378" height="49"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="tYg-6e-4uw">
+                                <rect key="frame" x="10" y="112.66666666666667" width="378" height="18.333333333333329"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WqL-to-ypS">
+                                        <rect key="frame" x="0.0" y="0.0" width="145" height="18.333333333333332"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="145" id="Rzd-zg-aRU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaR-5b-P9V">
+                                        <rect key="frame" x="233" y="0.0" width="145" height="18.333333333333332"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="145" id="eTR-3G-C7f"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93658053786297979" green="0.93455111939818425" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="tYg-6e-4uw" firstAttribute="top" secondItem="1Xk-5Y-49e" secondAttribute="bottom" constant="21.333333333333286" id="1CW-ry-akA"/>
+                            <constraint firstItem="0EW-kQ-MoB" firstAttribute="leading" secondItem="wFB-m2-YBj" secondAttribute="leading" constant="20" id="BMr-cS-fj5"/>
+                            <constraint firstAttribute="trailing" secondItem="tYg-6e-4uw" secondAttribute="trailing" constant="10" id="HvQ-cK-bov"/>
+                            <constraint firstAttribute="trailing" secondItem="1Xk-5Y-49e" secondAttribute="trailing" constant="10" id="g1z-RB-NV1"/>
+                            <constraint firstItem="0EW-kQ-MoB" firstAttribute="top" secondItem="wFB-m2-YBj" secondAttribute="top" constant="10" id="kSf-mn-6ni"/>
+                            <constraint firstAttribute="bottom" secondItem="tYg-6e-4uw" secondAttribute="bottom" constant="20" id="nw0-7m-Gva"/>
+                            <constraint firstAttribute="trailing" secondItem="0EW-kQ-MoB" secondAttribute="trailing" constant="20" id="sem-iJ-AXc"/>
+                            <constraint firstItem="tYg-6e-4uw" firstAttribute="leading" secondItem="wFB-m2-YBj" secondAttribute="leading" constant="10" id="vxF-tD-9Xr"/>
+                            <constraint firstItem="1Xk-5Y-49e" firstAttribute="top" secondItem="0EW-kQ-MoB" secondAttribute="bottom" constant="10" id="wi0-B5-PZA"/>
+                            <constraint firstItem="1Xk-5Y-49e" firstAttribute="leading" secondItem="wFB-m2-YBj" secondAttribute="leading" constant="10" id="ytA-No-cUX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="Backgrund"/>
+                <constraints>
+                    <constraint firstItem="wFB-m2-YBj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Toz-dp-x9K"/>
+                    <constraint firstAttribute="trailing" secondItem="wFB-m2-YBj" secondAttribute="trailing" constant="10" id="jEV-Hf-qMh"/>
+                    <constraint firstItem="wFB-m2-YBj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="tI0-UV-7TP"/>
+                    <constraint firstAttribute="bottom" secondItem="wFB-m2-YBj" secondAttribute="bottom" constant="10" id="vjq-MF-9Cl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="authorLabel" destination="BaR-5b-P9V" id="i3b-j2-rQA"/>
+                <outlet property="bgView" destination="wFB-m2-YBj" id="eUL-qz-0HJ"/>
+                <outlet property="descriptionLabel" destination="1Xk-5Y-49e" id="UOc-JB-bZt"/>
+                <outlet property="sourceLabel" destination="WqL-to-ypS" id="AZy-mb-gQf"/>
+                <outlet property="titleLabel" destination="0EW-kQ-MoB" id="scz-G1-iSV"/>
+            </connections>
+            <point key="canvasLocation" x="213.74045801526717" y="63.732394366197184"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Backgrund">
+            <color red="0.11372549831867218" green="0.15686275064945221" blue="0.21568629145622253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
